@@ -54,5 +54,5 @@ const logoutBtn = document.getElementById("logoutBtn");
 
 logoutBtn.addEventListener("click", () => {
 localStorage.removeItem("userEmail");
-window.location.href = "../Login-page/login.html";  
+window.location.href = "../Login-page/index.html";  
 })

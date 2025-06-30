@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./styles/un.css">
+  <link rel="stylesheet" href="../fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section class="login">
+  <div class="container login__container">
+    <div class="login__content">
+    <div class="login__left-side">
+      <img class="login__img" src="./images/Rectangle.png" alt="To-do board background" />
+    </div>
+    <div class="login__right-side">
+      <form class="login__form" id="form">
+        <h2 class="form__title">Sign in</h2>
+        <input id="email" class="form__email" type="email" placeholder="mail.exemple@mail.com" required />
+        <div class="form__password-field">
+          <input id="password" class="form__password" type="password" placeholder="***************" required />
+        </div>
+
+        <button id="signin_btn" type="submit" class="login__btn">Sign In</button>
+
+        <div class="login__divider"><span>or</span></div>
+
+        <div class="login__social">
+          <button class="social__google"><img src="./images/google.svg" alt="" class="google__img"> Google</button>
+          <button class="social__fb"><img src="./images/facebook.svg" alt="" class="fb__img"> Facebook</button>
+        </div>
+
+        <p class="login__signup">
+          Don't have an account? <a href="#" class="signup__link">Sign up</a>
+        </p>
+      </form>
+    </div>
+</div>
+  </div>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
