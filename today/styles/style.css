@@ -1,0 +1,227 @@
+
+.today {
+    margin-top: 27px;
+    background-color: white;
+}
+.today__content {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style-type: none;
+}
+
+.today__left {
+    background-color: #F4F4F4;
+    border-radius: 50px;
+    padding: 35px 23px 0 36px;
+}
+.today__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.today__menu-title {
+    font-family: 'OswaldSemiBold';
+    font-size: 32px;
+    margin-bottom: 30px;    
+}
+.today__burger {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    cursor: pointer;
+    height: 18px;
+    margin-top: 13px;
+}
+.burger-span {
+background-color: black;
+width: 18px;
+height: 2px;
+border-radius: 2px;
+}
+.today__search{
+    position: relative;
+}
+.today__search-input {
+    font-family: 'NotoSansLight';
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 9px 0 9px 43px;
+}
+.today__search-icon {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+.today__tasks {
+    margin-top: 46px;
+}
+.title {
+    font-family: 'OswaldSemiBold';
+    font-size: 15px;
+}
+.today__block, .today__color, .today__add {
+    font-family: 'NotoSansLight';
+    font-weight: 500;
+    padding-left: 12px;
+    font-size: 13px;
+    display: flex;
+}
+
+.today__upcoming {
+    margin-top: 10px;
+}
+.today__block-two, .today__color-two {
+    display: block;
+    margin-right: 100px;
+    width: 84px;
+}
+.today__block-three {
+    display: block;
+    text-align: end;
+    width: 24px;
+    font-size: 10px;
+    height: 13px;
+    background-color: #EBEBEB;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 2px;
+}
+.today__block-one, .today__color-one, .today__add-one {
+    display: block;
+    margin-top: 2px;
+    margin-right: 7px;
+}
+.today__lists {
+    margin-top: 35px;
+}
+.today__color-one {
+    width: 16px;
+    height: 11px;
+    border-radius: 50px;
+}
+.today__red {
+    margin-top: 8px;
+    background-color: #D9D9D933;
+    border-radius: 50px;
+}
+.today__green, .today__blue {
+    margin-top: 10px;
+    background-color: #D9D9D933;
+    border-radius: 50px;
+}
+.today__red-one {
+    background-color: #FF0000;
+    margin-top: 4px;
+}
+.today__green-one {
+    background-color: #61FF00;
+    margin-top: 4px;
+}
+.today__blue-one {
+    background-color: #5D7DF0;
+    margin-top: 4px;
+}
+.today__add {
+    margin-top: 17px;
+}
+.today__settings {
+        margin-top: 104px;
+}
+.today__settings, .today__sign-out {
+
+    font-size: 20px;
+    font-family: 'NotoSansLight';
+    font-weight: 600;
+}
+.today__sign-out {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.today__sign-out-two, .today__settings-two {
+    border: none;
+    font-size: 20px;
+    font-family: 'NotoSansLight';
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+    background-color: #F4F4F4;
+}
+.today__title, .main-block__title {
+    font-family: 'OswaldRegular';
+    font-size: 36px;
+}
+.today__main-block {
+    border: 1px solid #999999;
+    border-radius: 30px;
+    padding: 25px 43px 0 29px;
+}
+.main-block__input {
+    width: 766px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: 'NotoSansLight';
+    border: 1px solid #999999;
+    border-radius: 12px;
+    position: relative;
+}
+.main-block__form{
+    position: relative;
+}
+.main-block__btn{
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 17px;
+    height: 17px;
+}
+
+.today__li {
+    font-family: 'NotoSansLight';
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.today__li.appearing {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.li__checkbox {
+    width: 15px; 
+    margin: 0;
+    padding: 0;
+    height: 11px;
+}
+.today__deleteBtn {
+background-color: white;
+    border: none;
+}
+.today__deleteIcon {
+     width: 10px;
+    height: 10px;
+}
+.li__content-span {
+    margin-left: 15px;
+     transition: color 0.3s, text-decoration 0.3s, opacity 0.3s;    
+}
+
+.today__li.done span {
+    text-decoration: line-through;
+  color: #999;
+  opacity: 0.7;
+}
+
+

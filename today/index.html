@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/un.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../fonts.css">
+</head>
+<body>
+    <section class="today">
+        <div class="container today__container">
+            <div class="today__content">
+                <!-- <aside class="today__sidebar"> -->
+                <div class="today__left">
+                    <div class="today__menu">
+                        <h4 class="today__menu-title">Menu</h4>
+                        <div class="today__burger">
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                        </div>
+                    </div>
+                    <div class="today__search">
+                        <form class="today__search-form">
+                        <input type="text" placeholder="Search..." class="today__search-input">
+                        <span class="today__search-icon"><img src="./images/search.svg" alt=""></span>
+                        </form>
+                    </div>
+                    <div class="today__tasks">
+                        <h6 class="today__tasks-title title">Tasks</h6>
+                        <div class="today__upcoming today__block">
+                            <span class="today__upcoming-one today__block-one"><img src="./images/chevrons-right.svg" alt="" class="upcoming-img"></span>
+                            <span class="today__upcoming-two today__block-two">Upcoming</span>
+                            <span class="today__upcoming-three today__block-three">15+</span>
+                        </div>
+                        <div class="today__today today__block">
+                            <span class="today__today-one today__block-one"><img src="./images/list.svg" alt="" class="today-img"></span>
+                            <span class="today__today-two today__block-two">Today</span>
+                            <span class="today__today-three today__block-three">8</span>
+                        </div>
+                        <div class="today__calendar today__block">
+                            <span class="today__calendar-one today__block-one"><img src="./images/calendar.svg" alt="" class="calendar-img"></span>
+                            <span class="today__calendar-two today__block-two">Calendar</span>
+                        </div>
+                        <div class="today__sticky today__block">
+                            <span class="today__sticky-one today__block-one"><img src="./images/sticky.svg" alt="" class="sticky-img"></span>
+                            <span class="today__sticky-two today__block-two">Sticky Wall</span>
+                        </div>
+                        </div>
+                        <div class="today__lists">
+                            <h6 class="today__lists-title title">Lists</h6>
+                            <div class="today__red today__color">
+                            <span class="today__red-one today__color-one"></span>
+                            <span class="today__red-two today__color-two">Work</span>
+                        </div>
+                        <div class="today__green today__color">
+                            <span class="today__green-one today__color-one"></span>
+                            <span class="today__green-two today__color-two">Personal</span>
+                        </div>
+                        <div class="today__blue today__color">
+                            <span class="today__blue-one today__color-one"></span>
+                            <span class="today__blue-two today__color-two">Study</span>
+                        </div>
+                        <div class="today__add">
+                            <span class="today__add-one"><img src="./images/plus-circle.svg" alt="" class="add-img"></span>
+                            <span class="today__add-two">Add new list</span>
+                        </div>
+                        </div>
+                        <div class="today__settings">
+                            <span class="today__settings-one"><img src="./images/align-center.svg" alt="" class="settigs-img"></span>
+                            <button class="today__settings-two">Settings</button>
+                        </div>
+                        <div class="today__sign-out">
+                            <span class="today__sign-out-one"><img src="./images/log-out.svg" alt="" class="sign-out-img"></span>
+                            <button class="today__sign-out-two" id="logoutBtn">Sign out</button>
+                        </div>  
+                </div>
+                </aside>
+                <div class="today__main">
+                    <h4 class="today__title">Today</h4>
+                    <div class="today__main-block">
+                        <h4 class="main-block__title">Today</h4>
+                        <div class="main-block__content">
+
+                            <form action="" class="main-block__form">
+                                <input type="text" id="todayInput" class="main-block__input" placeholder="Add new task">
+                                <button id="todayBtn" class="main-block__btn" type="button"><img src="./images/plus-circle.svg" alt=""></button>
+                            </form>
+                            <ul class="main-block__list" id="todayList">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

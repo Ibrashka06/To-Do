@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/un.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../fonts.css">
+</head>
+<body>
+    <section class="home-page">
+        <div class="container home-page__container">
+            <div class="home-page__content">
+                <div class="home-page__left">
+                    <div class="home-page__menu">
+                        <h4 class="home-page__menu-title">Menu</h4>
+                        <div class="home-page__burger">
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                            <span class="burger-span"></span>
+                        </div>
+                    </div>
+                    <div class="home-page__search">
+                        <form class="home-page__search-form">
+                        <input type="text" placeholder="Search..." class="home-page__search-input">
+                        <span class="home-page__search-icon"><img src="./images/search.svg" alt=""></span>
+                        </form>
+                    </div>
+                    <div class="home-page__tasks">
+                        <h6 class="home-page__tasks-title title">Tasks</h6>
+                        <div class="home-page__upcoming home-page__block">
+                            <span class="home-page__upcoming-one home-page__block-one"><img src="./images/chevrons-right.svg" alt="" class="upcoming-img"></span>
+                            <span class="home-page__upcoming-two home-page__block-two">Upcoming</span>
+                            <span class="home-page__upcoming-three home-page__block-three">15+</span>
+                        </div>
+                        <div class="home-page__today home-page__block">
+                            <span class="home-page__today-one home-page__block-one"><img src="./images/list.svg" alt="" class="today-img"></span>
+                            <button class="home-page__today-two home-page__block-two" id="today__btn">Today</button>
+                            <span class="home-page__today-three home-page__block-three">8</span>
+                        </div>
+                        <div class="home-page__calendar home-page__block">
+                            <span class="home-page__calendar-one home-page__block-one"><img src="./images/calendar.svg" alt="" class="calendar-img"></span>
+                            <span class="home-page__calendar-two home-page__block-two">Calendar</span>
+                        </div>
+                        <div class="home-page__sticky home-page__block">
+                            <span class="home-page__sticky-one home-page__block-one"><img src="./images/sticky.svg" alt="" class="sticky-img"></span>
+                            <span class="home-page__sticky-two home-page__block-two">Sticky Wall</span>
+                        </div>
+                        </div>
+                        <div class="home-page__lists">
+                            <h6 class="home-page__lists-title title">Lists</h6>
+                            <div class="home-page__red home-page__color">
+                            <span class="home-page__red-one home-page__color-one"></span>
+                            <span class="home-page__red-two home-page__color-two">Work</span>
+                        </div>
+                        <div class="home-page__green home-page__color">
+                            <span class="home-page__green-one home-page__color-one"></span>
+                            <span class="home-page__green-two home-page__color-two">Personal</span>
+                        </div>
+                        <div class="home-page__blue home-page__color">
+                            <span class="home-page__blue-one home-page__color-one"></span>
+                            <span class="home-page__blue-two home-page__color-two">Study</span>
+                        </div>
+                        <div class="home-page__add">
+                            <span class="home-page__add-one"><img src="./images/plus-circle.svg" alt="" class="add-img"></span>
+                            <span class="home-page__add-two">Add new list</span>
+                        </div>
+                        </div>
+                        <div class="home-page__settings">
+                            <span class="home-page__settings-one"><img src="./images/align-center.svg" alt="" class="settigs-img"></span>
+                            <button class="home-page__settings-two">Settings</button>
+                        </div>
+                        <div class="home-page__sign-out">
+                            <span class="home-page__sign-out-one"><img src="./images/log-out.svg" alt="" class="sign-out-img"></span>
+                            <button class="home-page__sign-out-two" id="logoutBtn">Sign out</button>
+                        </div>  
+                </div>
+                <div class="home-page__right">
+                    <h2 id="userEmail"></h2>
+                    <h4 class="home-page__right-title">Wellcome to ToDoPy</h4>
+                    <p class="home-page__right-text">A to-do app is a simple, user-friendly digital tool designed to help individuals and teams organize tasks and manage their daily activities efficiently. Users can create, edit, and prioritize tasks, set deadlines or reminders, categorize items, and track their progress, all within an intuitive and accessible interface. These apps are essential for improving productivity, reducing stress, and ensuring that important responsibilities are not forgotten.</p>
+                    <div class="home-page__right-btn">
+                    <button class="right-btn">Go to tasks</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

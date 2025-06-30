@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'OswaldExtraLight';
+    font-weight: 200;
+    font-style: normal;
+    src: url('./fonts/Oswald-ExtraLight.woff'),
+         url('./fonts/Oswald-ExtraLight.woff2');
+}
+@font-face {
+    font-family: 'OswaldLight';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./fonts/Oswald-Light.woff'),
+         url('./fonts/Oswald-Light.woff2');
+}
+@font-face {
+    font-family: 'OswaldRegular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./fonts/Oswald-Regular.woff2'),
+         url('./fonts/Oswald-Regular.woff');
+}
+@font-face {
+    font-family: 'OswaldMedium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./fonts/Oswald-Medium.woff'),
+         url('./fonts/Oswald-Medium.woff2');
+}
+@font-face {
+    font-family: 'OswaldSemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./fonts/Oswald-SemiBold.woff'),
+         url('./fonts/Oswald-SemiBold.woff2');
+}
+@font-face {
+    font-family: 'OswaldBold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./fonts/Oswald-Bold.woff2'),
+         url('./fonts/Oswald-Bold.woff2');
+}
+@font-face {
+    font-family: 'InderRegular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./fonts/Inder-Regular.woff'),
+         url('./fonts/Inder-Regular.woff');       
+}
+@font-face {
+    font-family: 'NotoSansLight';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./fonts/NotoSans_Condensed-Light.woff'),
+         url('./fonts/NotoSans_Condensed-Light.woff2');       
+}
