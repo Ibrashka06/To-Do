@@ -188,3 +188,8 @@ border-radius: 2px;
     border: none;
     color: black;
 }
+
+
+.home-page__tasks, .home-page__lists {
+    text-decoration: line-through;
+}

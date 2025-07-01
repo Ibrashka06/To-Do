@@ -223,5 +223,7 @@ background-color: white;
   color: #999;
   opacity: 0.7;
 }
-
+.today__tasks, .today__lists {
+    text-decoration: line-through;
+}
 
